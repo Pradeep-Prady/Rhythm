@@ -1,8 +1,12 @@
  
-import "./App.css";
+import Home from './components/Home/Home';
 
-function App() {
-  return <div className="App">app</div>;
-}
+ const App = (props) => {
+  return (
+    <div>
+ <Home/>
+    </div>
+  )
+ }
 
-export default App;
+ export default App;
