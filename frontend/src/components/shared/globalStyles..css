@@ -1,7 +1,11 @@
 .screen-container {
-  height: calc(100%-70px);
+  height:100vh;
   width: 100%;
   background-color: #5c605c;
   border-radius: 30px;
 
+}
+
+.flex{
+  display: flex;
 }

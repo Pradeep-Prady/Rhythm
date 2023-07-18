@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 export default function NavButton(props) {
   const location = useLocation();
   const isActive = location.pathname === props.to;
-  console.log(location.pathname, props.to);
+ 
 
   const btnClass = isActive ? "nav-button active" : "nav-button";
 
